@@ -43,6 +43,11 @@ public class CustomSortStringFor791 {
 
     /**
      * 网友实现的最多赞的方法
+     *      思路分析：
+     *          与我的做法思路大致相同，先将T中所有字符都加入数组count，
+     *          两次遍历：
+     *              按照S的顺序，将count中存有S的字符塞入StringBuilder中，并更新count数组
+     *              将count数组中剩下的字符塞入StringBuilder中，结束。
      * @param S
      * @param T
      * @return
