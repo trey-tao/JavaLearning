@@ -51,6 +51,7 @@ public class ReverseIntegerFor2 {
      * 网友推荐解法
      *      思路理解：
      *      循环获取最低位的数，依次*10+上一位的数，此过程，自动处理开头为0的无效数
+     *
      * @param x
      * @return
      */
