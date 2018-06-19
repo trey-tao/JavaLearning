@@ -16,4 +16,8 @@ public class Test {
     public int getNumber() {
         return number;
     }
+
+    public static void main(String[] args) {
+        System.out.println("Test");
+    }
 }
